@@ -25,7 +25,7 @@
 #import everything needed
 import csv                      #this is to read the delimited file
 import datetime                 #this is to use the correct date in the comparison from the file to ISS
-from astro_pi import AstroPi    #this is to be able to use the sensors and board on the Astro Pi
+from sense_hat import AstroPi    #this is to be able to use the sensors and board on the Astro Pi or later sense hat
 from time import sleep, time    #this is to be able to make the code wait when it is needed to
 from random import randint      #this is to be able to generate a random greeting/goodbye from the list
 
